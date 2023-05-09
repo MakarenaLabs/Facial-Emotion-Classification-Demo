@@ -1,0 +1,1 @@
+Copy this file in /usr/local/share/pynq-venv/lib/python3.9/site-packages and restart the board
