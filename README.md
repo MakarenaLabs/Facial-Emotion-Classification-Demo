@@ -40,15 +40,17 @@ To use the system, follow these steps:
 
 1. Turn on the KR260, connect an USB camera (1080p is better) and connect it to the local LAN.
 
-2. Open Chrome browser to the board IP at port 9090 (for example, if your board has the IP 192.168.1.9, write on your searchbar http://192.168.1.9:9090).
+2. (if you want to connect throught ssh for monitoring the board) connect with username "petalinux" and password "root"
 
-3. Open the Jupyter Notebook provided in this repo called "Emotion Demo.ipynb" (or if you will use the provided image, is under the directory "The Bring Up")
+3. Open Chrome browser to the board IP at port 9090 (for example, if your board has the IP 192.168.1.9, write on your searchbar http://192.168.1.9:9090). The password for Jupyter Notebook is "xilinx" (as documented in PYNQ)
 
-4. On the Jupyter interface, Kernel -> Restart & Run All
+4. Open the Jupyter Notebook provided in this repo called "Emotion Demo.ipynb" (or if you will use the provided image, is under the directory "The Bring Up")
 
-5. Click on "Start button"
+5. On the Jupyter interface, Kernel -> Restart & Run All
 
-6. Enjoy :-) 
+6. Click on "Start button"
+
+7. Enjoy :-) 
 
 ## License
 
